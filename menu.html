@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+  <head>
+    <title>Seana's Menu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./resources/css/menu.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./resources/css/logo.png" id="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"><img class="menu-tabs-mobile" src="./resources/css/Menu/Home.jpg"> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html"><img class="menu-tabs-mobile" src="./resources/css/Menu/About-Seanas.jpg"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./menu.pdf"><img class="menu-tabs-mobile" src="./resources/css/Menu/Seanas-Menu.jpg"><div id="active-tab" class="active-tab"></div></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./galleries.html"><img class="menu-tabs-mobile" src="./resources/css/Menu/Media-Galleries.jpg"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html"><img class="menu-tabs-mobile" src="./resources/css/Menu/Contact.jpg"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container card text-center">
+      <div class="row nav">
+        <div class="col col-sm col-md col-lg-2 col-xl">
+          <a href="./index.html">
+            <h4 id="home" class="menu-tabs">Home</h4>
+          </a>
+        </div>
+        <div class="col col-sm col-md col-lg col-xl">
+          <a href="./about.html">
+            <h4 id="about" class="menu-tabs">About</h4>
+          </a>
+        </div>
+        <div class="col col-sm col-md col-lg col-xl">
+          <a href="./menu.pdf">
+            <h4 id="menu" class="menu-tabs active-tab">Menu</h4>
+          </a>
+        </div>
+        <div class="col col-sm col-md col-lg col-xl">
+          <a href="./galleries.html">
+            <h4 id="media" class="menu-tabs">Media Galleries</h4>
+          </a>
+        </div>
+        <div class="col col-sm col-md col-lg col-xl">
+          <a href="./contact.html">
+            <h4 id="menu" class="menu-tabs">Contact</h4>
+          </a>
+        </div>
+      </div>
+
+    <!--  <div class="row mt-5 web">
+        <div class="col col-md col-lg">
+          <figure>
+            <img src="https://cdn.foodism.co.uk/featured_image/5cf53d60c4dfd.jpeg" id="banner">
+            <figcaption class="text-right"><a href="./resources/Seanas Menu Folder/seanas_menu_print2.pdf"><i class="fa fa-print"></i> Printable Menu</a></figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row mt-5 mobile">
+        <div class="col col-md col-lg">
+          <figure>
+            <img src="./resources/css/menu-banner-mobile.jpg" id="banner">
+            <figcaption class="text-right"><a href="./resources/Seanas Menu Folder/seanas_menu_print2.pdf"><i class="fa fa-print"></i> Printable Menu</a></figcaption>
+          </figure>
+        </div>
+      </div> -->
+      
+      <div class="row mt-5 ml-3 mx-auto">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl">
+          <div id="carouselExampleSlidesOnly" class="carousel slide mb-3" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://pinchofyum.com/wp-content/uploads/caribbean-jerk-salmon1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://media-cdn.tripadvisor.com/media/photo-s/12/1a/f5/7d/photo1jpg.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://static.onecms.io/wp-content/uploads/sites/9/2012/04/200806-r-cornish-hens.jpg" alt="Third slide">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="welcome col-12 col-sm-12 col-md-12 col-lg-8 col-xl">
+          <h1>Welcome to Seana's!</h1>
+          <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nulla. In, quam? Repudiandae cum rerum dolores aliquam nesciunt quasi, esse est. Nulla fugiat deserunt exercitationem tenetur officiis itaque vero. Alias quia assumenda cum asperiores magnam veritatis ad commodi corrupti nemo, provident laudantium omnis velit, dolorem voluptatibus dolore sint eos esse aliquam rerum voluptates blanditiis at consequatur. Ut quo eos quos sit in facilis totam quod amet ipsa ullam dolor minus culpa deleniti iure, iusto molestias natus, quas illum, est ea velit maiores neque laboriosam! Corporis quisquam asperiores voluptatem. Sed sapiente ipsam repellat aperiam hic unde labore aliquid earum nisi voluptatum.</p>
+        </div>
+      </div>
+      <div class="row text-right">
+        <div class="col">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1 class="menu mt-5 pt-2">Seana's Menu</h1>
+        </div>
+      </div>
+      <div class="row mr-4 ml-4">
+        <div class="col-12 col-md-6">
+          <h3 class="py-4">Aiden and Anaiya Shareables</h3>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Mini Ribs</h6>
+              <p class="text-left description">Sweet Barbecue Sauce and Garlic</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$8</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Shrimp</h6>
+              <p class="text-left description">Sauteed in a Garlic Butter or Curry Sauce</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$8</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Dirty Rice</h6>
+              <p class="text-left description">Seasoned with Coconut Milk, Ground Beef, Chicken, Shrimp, and Sausage</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$12</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Wings</h6>
+              <p class="text-left description">10 wings tossed in your choice of Hot, Mild, Barbecue, Jerk, Honey, Lexi's Lemon Pepper or Garlic sauce (Mix sauces if you'd like!)</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$10</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Fried Shrimp</h6>
+              <p class="text-left description">Seasoned with Corn Meal</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$7</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Seafood Mac and Cheese</h6>
+              <p class="text-left description">With Crab and Shrimp</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$13</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">3 Seafood Deviled Eggs</h6>
+              <p class="text-left description">Crab, Shrimp, and Mayo<br>*Only available on Weekends</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$3</p>
+            </div>
+          </div>
+          <h3 class="py-4">Beer and Drinks</h3>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Carib <span class="drink">(Lager)</span></h6>
+              <p class="text-left description">A Trinidad and Tobago staple, a refreshing balance between malted sweetness and hop bitterness</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$4</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Red Stripe <span class="drink">(Pale Lager)</span></h6>
+              <p class="text-left description">A world famous import from Jamaica, full bodied lager with a uniquely sweet flavor</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$4</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Prestige <span class="drink">(Lager)</span></h6>
+              <p class="text-left description">Hailing from Haiti, a crispy and clean finish with lingering fruitful flavors</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$4</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Jungle Juice</h6>
+              <p class="text-left description">A tasty concoction of juices and alcohol</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$8</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Seagrams Escape</h6>
+              <p class="text-left description">The world's favorite wine cooler, available in assorted flavors</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$3</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-md-9 mx-auto box">
+              <p class="Nene">Proudly Serving: NeNe's Delicious<br>Cakes & Desserts <span class="drink">(Updated daily!)</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="text-left mt-5 warning">All food items are cooked to order<br>
+              *Menu items may contain or come into contact with wheat/<br>
+            gluten, eggs, peanuts, tree nuts, fish, shellfish, soy and milk</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3 class="py-4">Corey and K's Entrees</h3>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Fried Snapper</h6>
+              <p class="text-left description">Stuffed with Green Onions, Garlic, and Thyme</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$14</p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Salmon</h6>
+              <p class="text-left description">Sauteed in Garlic Sauce or Sweet Glaze Sauce</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$14</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Fried Pork Chops</h6>
+              <p class="text-left description">Smothered in Homemade Gravy</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$12</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Tony's Turkey Wings</h6>
+              <p class="text-left description">Baked or fried with Homemade Gravy, Onion, and Green Peppers</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$12</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Baked Chicken</h6>
+              <p class="text-left description">Marinated Dark Meat Chicken in our Special Seasoning with your choice of Gravy</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$12</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Fried Chicken</h6>
+              <p class="text-left description">Dark Meat Chicken fried with our Special Seasoning</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$12</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Veggie Lasagna</h6>
+              <p class="text-left description">Mushrooms, Spinach, Onion,<br>Green Peppers, Squash, Zucchini<br>in a Red sauce and 5 Cheese Blend</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$12</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Curry Chicken</h6>
+              <p class="text-left description">Dark Meat seasoned in a Mild Curry Sauce</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$12</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Beyond Meat Burger</h6>
+              <p class="text-left description">The World's first Plant-based Burger that looks,<br>cooks, and satisfies like beef.</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$12</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>All entrees include 2 sides</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h6>Jonah's Sides ($3 Each)</h6>
+            </div>
+          </div> 
+          <div class="row sides text-left d-flex justify-content-center mx-auto">
+            <div class="col-6 col-md-5">
+              <p>Potato salad
+              <br>French Fries
+              <br>Mac and Cheese
+              <br>Jasmine Rice
+              <br>Cabbage</p>
+            </div>
+            <div class="col-6 col-md-5">
+              <p>Side Salad
+              <br>Sweet Plantains
+              <br>Collard Greens
+              <br><span class="thin">Smoked with Turkey 
+                <br>Wing Sections</span></p>
+            </div>
+          </div>
+          <h3 class="py-4">Non-Alcoholic</h3>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Jupina</h6>
+              <p class="text-left description">A snappy tropical soda made with <br>real pineapple juice</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$1.5</p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Ting</h6>
+              <p class="text-left description">A sparkling Citrus Cocktail made with real<br>Jamaican Grapefruit and Sunshine</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$3</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Ginger Beer</h6>
+              <p class="text-left description">A blend of Ginger and Sugar cane<br>(Non-alcoholic)</p>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$2.5</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Morgan-N-Hearts Homemade Lemonades</h6>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$3</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 col-md-9">
+              <h6 class="text-left">Drew's Kool-Aid Cup <span class="drink">(Free Refills)</span></h6>
+            </div>
+            <div class="col-4 col-md-3">
+              <p class="text-right price">$2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 d-flex justify-content-center">
+        <div class="col-3 col-md-2">
+          <a class="icon" href="tel:+1-321-800-6846" class="mobile-phone"><img src="./resources/css/icons/phone-outline.png" title="Call"></a>
+        </div>
+        <div class="col-3 col-md-2">
+          <a class="icon" href="https://www.google.com/maps/place/Seana's+Caribbean+%7C+Soul+Food/@28.5526552,-81.505865,688m/data=!3m1!1e3!4m12!1m6!3m5!1s0x88e77954c3c9589b:0xfef20c34d3b2c877!2sSeana's+Caribbean+%7C+Soul+Food!8m2!3d28.5526505!4d-81.5036763!3m4!1s0x88e77954c3c9589b:0xfef20c34d3b2c877!8m2!3d28.5526505!4d-81.5036763"><img src="./resources/css/icons/location-1387-448334.png" title="Directions"></a>
+        </div>
+        <div class="col-3 col-md-2">
+          <a class="icon" href="https://www.ubereats.com/en-US/orlando/food-delivery/seanas/o6S7Q_qWSQaI5Ro2ufozCQ"><img src="./resources/css/icons/uber.png" title="Uber Eats"></a>
+        </div>
+        <div class="col-3 col-md-2">
+          <a class="icon" href="mailto:Seanascooking@gmail.com" target="_top" title="E-mail"><img src="./resources/css/icons/email.png" style="border-radius: 100%"></a>
+        </div>
+      </div>
+      <footer class="row text-center mt-5">
+        <p class="col">Open 7 Days A Week | 
+        <a href="tel:+1-321-800-6846" class="mobile-phone">Call: (321) 800-6846</a> | <a href="mailto:Seanascooking@gmail.com" target="_top">Seanascooking@gmail.com</a><br>
+        <strong>Seana's Caribbean Soul Food</strong> - 719 Good Homes Rd. - Orlando, FL 32818 | <a href="https://www.google.com/maps/place/Seana's+Caribbean+%7C+Soul+Food/@28.5526552,-81.505865,688m/data=!3m1!1e3!4m12!1m6!3m5!1s0x88e77954c3c9589b:0xfef20c34d3b2c877!2sSeana's+Caribbean+%7C+Soul+Food!8m2!3d28.5526505!4d-81.5036763!3m4!1s0x88e77954c3c9589b:0xfef20c34d3b2c877!8m2!3d28.5526505!4d-81.5036763">Driving Directions</a><br> 
+        Site Design & Development by <a href="https://al-byte.github.io/Portfolio/">Alex Washington</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
